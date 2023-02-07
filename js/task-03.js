@@ -21,7 +21,7 @@ const imagesArray = images.map(image => {
   return imageItem;
 })
 
-gallery.insertAdjacentHTML("afterbegin", [...imagesArray]);
+gallery.insertAdjacentHTML("afterbegin", imagesArray.join(" "));
 
 
 
